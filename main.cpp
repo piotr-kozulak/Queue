@@ -2,12 +2,12 @@
 #include "queue.h"
 void menu(void){
     printf("\n");
-    printf("Enter a number into queue (push)\n");
-    printf("Read a value of the first element (top)\n");
-    printf("Delete first number (pop)\n");
-    printf("Check if queue is empty\n");
-    printf("Check if queue is full\n");
-    printf("End of program\n");
+    printf("1.Enter a number into queue (push)\n");
+    printf("2.Read a value of the first element (top)\n");
+    printf("3.Delete first number (pop)\n");
+    printf("4.Check if queue is empty\n");
+    printf("5.Check if queue is full\n");
+    printf("6.End program\n");
     printf("\n");
 }
 int main()
