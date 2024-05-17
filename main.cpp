@@ -26,7 +26,7 @@ int main()
                 if ( !isQueueFull() ){
                     printf("Enter value: ");
                     scanf("%d", &temp);
-                    Push(temp);
+                    push(temp);
                 }
                 else {
                     printf("Wrong operation. Queue is Full!!!\n\n");
@@ -36,7 +36,7 @@ int main()
 
             case 2:
                 if (!isQueueEmpty()) {
-                    temp = Top();
+                    temp = top();
                     printf("Read value: %d", temp);
                 }
                 else {
@@ -47,7 +47,7 @@ int main()
 
             case 3:
                 if (!isQueueEmpty()) {
-                    temp = Pop();
+                    temp = pop();
                     printf("New first element: %d", temp);
                 }
                 else {

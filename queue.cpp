@@ -14,7 +14,7 @@ int isQueueFull(void)
     return (queue_index == (SIZE)) ? 1 : 0;
 }
 
-int Pop(void)
+int pop(void)
 {
     if (!isQueueEmpty())
     {
@@ -29,7 +29,7 @@ int Pop(void)
     return queue_table[0];
 }
 
-int Top(void)
+int top(void)
 {
     if (!isQueueEmpty())
     {
@@ -39,7 +39,7 @@ int Top(void)
     return queue_table[0];
 }
 
-void Push(int val)
+void push(int val)
 {
     if (!isQueueFull())
     {

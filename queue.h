@@ -6,8 +6,8 @@
 #define QUEUE_QUEUE_H
 int isQueueEmpty(void);
 int isQueueFull(void);
-int Pop(void);
-int Top(void);
-void Push(int val);
+int pop(void);
+int top(void);
+void push(int val);
 
 #endif //QUEUE_QUEUE_H
